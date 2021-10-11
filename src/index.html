@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gyepes</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+</head>
+
+<body>
+    <div>
+        <ul class="nav justify-content-center">
+            <div class="nav-item">
+                <a class="nav-link active" aria-current="page" href="index.html">Gyep</a>
+            </div>
+            <div class="nav-item">
+                <a class="nav-link" href="about.html">Névjegy</a>
+            </div>
+            <div class="nav-item">
+                <a class="nav-link" href="github.html">GitHub</a>
+            </div>
+        </ul>
+    </div>
+
+    <div class="container">
+        <h1>Gyep terület kalkulátor</h1>
+        <h2>Kör terület számítás</h2>
+        <div>
+            <div class="mb-3">
+                <label for="diameter" class="form-label">Átmérő</label>
+                <input type="text" class="form-control" id="diameter" placeholder="átmérő">
+            </div>
+        </div>
+
+        <button type="button" class="btn btn-primary" id="calcButton">Számít</button>
+
+        <div>
+            <div class="mb-3">
+                <label for="result" class="form-label">Eredmény</label>
+                <input type="text" class="form-control" id="result" disabled>
+            </div>
+        </div>
+
+    </div>
+
+    <script src="app.js"></script>
+</body>
+
+</html>
